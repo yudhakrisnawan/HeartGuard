@@ -10,7 +10,7 @@ HeartGuard is a web-based application for heart disease prediction using a machi
 - Accurate predictions using a trained machine learning model.
 - Integration of PHP (Laravel) and Python for seamless backend processing.
 
-##How to Use
+## How to Use
 1. Open the Prediction Form.
 2. Fill in the required fields such as Age, Sex, Chest Pain Type, Cholesterol Level, etc.
 3. Once you have filled in all the fields, click the Submit button to send the data for prediction.
@@ -19,7 +19,7 @@ HeartGuard is a web-based application for heart disease prediction using a machi
 ## HeartGuard Interface  
 The HeartGuard User Interface is designed to provide a seamless and user-friendly experience for heart disease prediction. The interface allows users to easily input various health parameters, such as age, cholesterol levels, and heart rate, into the form fields. Once the data is filled in, users simply click the "Predict Heart Condition" button to submit the information. The prediction result, indicating whether heart disease is detected or not, is then displayed on a separate result page. The interface prioritizes clarity and ease of use, making it accessible for users to quickly check their heart health status. The clean design ensures users can focus on entering their details accurately and receiving prompt, reliable predictions.
 
-![HeartGuard](public/images/EyeCareAI.png)
+![HeartGuard](public/images/screenshot.png)
 
 ## How to Run the Project
 
