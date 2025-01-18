@@ -1,3 +1,51 @@
+# HeartGuard
+Care for Every Heartbeat
+
+## About the Model 
+HeartGuard is a web-based application for heart disease prediction using a machine learning model. It allows users to input various health parameters, such as age, cholesterol level, and heart rate, to predict whether they have heart disease or not. The predictions are powered by a trained machine learning model integrated with Python scripts.
+
+## Features
+- Predict heart disease based on health data input.
+- User-friendly interface for data entry.
+- Accurate predictions using a trained machine learning model.
+- Integration of PHP (Laravel) and Python for seamless backend processing.
+
+##How to Use
+1. Open the Prediction Form.
+2. Fill in the required fields such as Age, Sex, Chest Pain Type, Cholesterol Level, etc.
+3. Once you have filled in all the fields, click the Submit button to send the data for prediction.
+4. After submission, the application will display the result page, indicating whether heart disease is detected or not based on the model's prediction.
+
+## HeartGuard Interface  
+The HeartGuard User Interface is designed to provide a seamless and user-friendly experience for heart disease prediction. The interface allows users to easily input various health parameters, such as age, cholesterol levels, and heart rate, into the form fields. Once the data is filled in, users simply click the "Predict Heart Condition" button to submit the information. The prediction result, indicating whether heart disease is detected or not, is then displayed on a separate result page. The interface prioritizes clarity and ease of use, making it accessible for users to quickly check their heart health status. The clean design ensures users can focus on entering their details accurately and receiving prompt, reliable predictions.
+
+![HeartGuard](public/images/EyeCareAI.png)
+
+## How to Run the Project
+
+### Prerequisites
+- PHP installed on your machine (minimum version: 7.4 or higher).
+- Composer installed.
+- Python installed (along with necessary dependencies like `scikit-learn` and `numpy`).
+- Git installed.
+
+### Setup Steps
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/yudhakrisnawan/HeartGuard.git
+   cd HeartGuard
+
+2. **Start the Laravel Server:**
+   ```bash
+   php artisan serve
+   ```
+
+3. **Access the Application:**
+   Open your browser and navigate to:
+   ```
+   http://localhost:8000
+   ```
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
